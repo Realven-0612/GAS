@@ -39,5 +39,5 @@ public:
 	void OnRep_Mana(const FGameplayAttributeData& OldMana) const;
 
 	UFUNCTION()
-	void OnRep_MaxMana(const FGameplayAttributeData& MaxMana) const;
+	void OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana) const;
 };
